@@ -14,5 +14,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Check for files pls 
+      run: |
+        ls .
+        ls ..
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag niceguitest:$(date +%s)
