@@ -2,7 +2,6 @@ import nicegui
 from nicegui import ui
 import platform
 import os
-#get operating system name
 osmodel = platform.system()
 ui.icon('thumb_up')
 #add a button that plays Rick Astley's Never Gonna Give You Up
