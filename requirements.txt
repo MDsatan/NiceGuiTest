@@ -1,0 +1,7 @@
+uvicorn
+fastapi
+uvloop
+httptools
+pathlib
+pyinstaller
+nicegui
